@@ -13,7 +13,7 @@ public class TestMeTests {
 
 	@Before
 	public void setUp() throws Exception {
-		testMe  = new TestMe();
+		testMe = new TestMe();
     }
 
 	@Test
