@@ -4,12 +4,10 @@ public class TestMe {
 	private double value = Double.NaN;
 
 	public static void main(String[] args) {
-		System.out.println("Entry Point");
+		System.out.println("Hello world!");
 	}
 
-	public TestMe() {
-		System.out.println("I AM THE CONSTRUCTOR");
-	}
+	public TestMe() {}
 
 	public double square() { return value*value; }
 	public void setValue(double v) {

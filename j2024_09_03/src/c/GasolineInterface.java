@@ -1,7 +1,6 @@
-public interface GasolineInterface {
+package c;
 
-    double calcGasMPG();
-    void setMilesfromGas(double miles);
-    void setGallonsfromGas(double gallons);
+public interface GasolineInterface {
     
+    double fuelCost(double pricePerGallon, double gallons);
 }
